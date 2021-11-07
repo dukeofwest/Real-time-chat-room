@@ -1,0 +1,21 @@
+{
+  "name": "real-time-chat-room",
+  "version": "1.0.0",
+  "description": "A real time chatroom created with node using multiple clients",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "websocket",
+    "chatroom"
+  ],
+  "author": "Duke Ovie",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "ws": "^8.2.3"
+  }
+}
